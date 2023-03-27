@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>AI Tools and Applications</title>
+  <style>
+    body {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+    h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.d1{
+    width: 350px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  </style>
+</head>
+<body>
+  <h1>AI Tools and Applications</h1>
+<div class="main">
+<div class="d1">
+    <h2>Natural Language Processing (NLP)</h2>
+    <ul>
+        <li><a href="https://cloud.google.com/natural-language">Google Cloud Natural Language API</a></li>
+        <li><a href="https://stanfordnlp.github.io/CoreNLP/">Stanford CoreNLP</a></li>
+        <li><a href="https://spacy.io/">SpaCy</a></li>
+        <li><a href="https://www.nltk.org/">NLTK (Natural Language Toolkit)</a></li>
+        <li><a href="https://openai.com/language/models/gpt-3/">OpenAI GPT-3</a></li>
+    </ul>
+</div>
+
+<div class="d1">
+  <h2>Speech Recognition</h2>
+  <ul>
+    <li><a href="https://cloud.google.com/speech-to-text">Google Cloud Speech-to-Text API</a></li>
+    <li><a href="https://aws.amazon.com/transcribe/">Amazon Transcribe</a></li>
+    <li><a href="https://www.ibm.com/cloud/watson-speech-to-text">IBM Watson Speech to Text</a></li>
+    <li><a href="http://kaldi-asr.org/">Kaldi</a></li>
+    <li><a href="https://github.com/mozilla/DeepSpeech">Mozilla DeepSpeech</a></li>
+  </ul>
+</div>
+
+<div class="d1">
+  <h2>Computer Vision</h2>
+  <ul>
+    <li><a href="https://www.tensorflow.org/">TensorFlow</a></li>
+    <li><a href="https://pytorch.org/">PyTorch</a></li>
+    <li><a href="https://opencv.org/">OpenCV</a></li>
+    <li><a href="https://github.com/AlexeyAB/darknet">YOLO</a></li>
+    <li><a href="https://github.com/facebookresearch/detectron2">Detectron2</a></li>
+  </ul>
+</div>
+
+<div class="d1">
+  <h2>Robotics</h2>
+  <ul>
+    <li><a href="https://www.ros.org/">ROS (Robot Operating System)</a></li>
+    <li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=29081">Microsoft Robotics Developer Studio</a></li>
+    <li><a href="https://www.blueprism.com/">Blue Prism</a></li>
+    <li><a href="https://www.uipath.com/">UiPath</a></li>
+    <li><a href="https://www.kuka.com/">KUKA Robotics</a></li>
+  </ul>
+</div>
+
+<div class="d1">
+    <h2>Machine Learning Platforms</h2>
+    <ul>
+        <li><a href="https://cloud.google.com/ai-platform">Google Cloud AI Platform</a></li>
+        <li><a href="https://azure.microsoft.com/en-us/services/machine-learning/">Microsoft Azure Machine Learning</a></li>
+        <li><a href="https://aws.amazon.com/sagemaker/">AWS SageMaker</a></li>
+        <li><a href="https://www.h2o.ai/">H2O.ai</a></li>
+        <li><a href="https://www.datarobot.com/">DataRobot</a></li>
+    </ul>
+</div>
+
+<div class="d1">
+    <h2>Chatbots</h2>
+    <ul>
+        <li><a href="https://cloud.google.com/dialogflow">Dialogflow</a></li>
+        <li><a href="https://aws.amazon.com/lex/">Amazon Lex</a></li>
+        <li><a href="https://www.ibm.com/cloud/watson-assistant/">IBM Watson Assistant</a></li>
+        <li><a href="https://botpress.com/">Botpress</a></li>
+        <li><a href="https://rasa.com/">Rasa</a></li>
+    </ul>
+</div>
+
+<div class="d1">
+    <h2>Predictive Analytics</h2>
+    <ul>
+        <li><a href="https://rapidminer.com/">RapidMiner</a></li>
+        <li><a href="https://www.sas.com/en_us/software/analytics.html">SAS</a></li>
+        <li><a href="https://www.knime.com/">KNIME</a></li>
+        <li><a href="https://www.alteryx.com/">Alteryx</a></li>
+        <li><a href="https://databricks.com/">Databricks</a></li>
+    </ul>
+</div>
+
+<div class="d1">
+    <h2>Data Visualization</h2>
+    <ul>
+        <li><a href="https://www.tableau.com/">Tableau</a></li>
+        <li><a href="https://powerbi.microsoft.com/">Power BI</a></li>
+        <li><a href="https://www.qlik.com/us/products/qlikview">QlikView</a></li>
+        <li><a href="https://www.sas.com/en_us/software/visual-analytics.html">SAS Visual Analytics</a></li>
+        <li><a href="https://d3js.org/">D3.js</a></li>
+    </ul>
+</div>
+
+<div class="d1">
+    <h2>Recommendation Systems</h2>
+    <ul>
+        <li><a href="https://aws.amazon.com/personalize/">Amazon Personalize</a></li>
+        <li><a href="https://www.ibm.com/cloud/watson-discovery">IBM Watson Discovery</a></li>
+        <li><a href="https://www.sap.com/products/customer-experience.html">SAP Customer Experience</a></li>
+        <li><a href="#">Adobe Target</a></li>
+    </ul>
+</div>
+
+<p>writen by <a href="https://github.com/ajaanz">Ajaanz(Ajan Chathumal)</a></li></p>
+
+</div>
